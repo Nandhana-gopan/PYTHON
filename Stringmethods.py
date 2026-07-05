@@ -1,0 +1,12 @@
+String=input("enter a string:")
+print(String.upper())
+print(String.lower())
+print(String.count("h"))
+print(String.find("hi"))
+print(String.strip())
+word=input("enter the word to replace:")
+new=input("enter the new word:")
+print(String.replace(word,new))
+print(String.split(","))
+lisst=['i','am','cute']
+print(" ".join(lisst))
